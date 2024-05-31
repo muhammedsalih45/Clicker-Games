@@ -7,7 +7,7 @@ namespace Clicker_Games
             InitializeComponent();
         }
         int hit = 20;
-        int altin = 0;
+        int altin = 0; 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             altin += hit;
@@ -31,32 +31,32 @@ namespace Clicker_Games
 
         private void pictureBox2_MouseHover(object sender, EventArgs e)
         {
-            label3.Text = "500 Altýn";
+            label3.Text = "1000 Altýn";
         }
 
         private void pictureBox3_MouseHover(object sender, EventArgs e)
         {
-            label3.Text = "800 Altýn";
+            label3.Text = "2000 Altýn";
         }
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
         {
-            label3.Text = "1100 Altýn";
+            label3.Text = "3000 Altýn";
         }
 
         private void pictureBox5_MouseHover(object sender, EventArgs e)
         {
-            label3.Text = "1500 Altýn";
+            label3.Text = "4000 Altýn";
         }
 
         private void pictureBox6_MouseHover(object sender, EventArgs e)
         {
-            label3.Text = "1800 Altýn";
+            label3.Text = "5000 Altýn";
         }
 
         private void pictureBox7_MouseHover(object sender, EventArgs e)
         {
-            label3.Text = "2100 Altýn";
+            label3.Text = "6000 Altýn";
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
@@ -66,10 +66,10 @@ namespace Clicker_Games
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (altin >= 500)
+            if (altin >= 1000)
             {
-                altin -= 500;
-                hit = 40;
+                altin -= 1000;
+                hit = 60;
                 label2.Text = altin.ToString();
                 pictureBox2.BackColor = Color.Green;
                 pictureBox2.Enabled = false;
@@ -82,10 +82,10 @@ namespace Clicker_Games
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            if (altin >= 800)
+            if (altin >= 2000)
             {
-                altin -= 800;
-                hit = 80;
+                altin -= 2000;
+                hit = 100;
                 label2.Text = altin.ToString();
                 pictureBox3.BackColor = Color.Green;
                 pictureBox3.Enabled = false;
@@ -109,10 +109,10 @@ namespace Clicker_Games
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            if (altin >= 1100)
+            if (altin >= 3000)
             {
-                altin -= 1100;
-                hit = 120;
+                altin -= 3000;
+                hit = 160;
                 label2.Text = altin.ToString();
                 pictureBox4.Enabled = false;
                 pictureBox4.BackColor = Color.Green;
@@ -125,10 +125,10 @@ namespace Clicker_Games
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            if (altin >= 1500)
+            if (altin >= 4000)
             {
-                altin -= 1500;
-                hit = 160;
+                altin -= 4000;
+                hit = 200;
                 label2.Text = altin.ToString();
                 pictureBox5.Enabled = false;
                 pictureBox5.BackColor = Color.Green;
@@ -141,10 +141,10 @@ namespace Clicker_Games
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            if (altin >= 1800)
+            if (altin >= 5000)
             {
-                altin -= 1800;
-                hit = 200;
+                altin -= 5000;
+                hit = 260;
                 label2.Text = altin.ToString();
                 pictureBox6.BackColor = Color.Green;
                 pictureBox6.Enabled = false;
@@ -157,10 +157,10 @@ namespace Clicker_Games
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            if (altin >= 2100)
+            if (altin >= 6000)
             {
-                altin -= 2100;
-                hit = 240;
+                altin -= 6000;
+                hit = 300;
                 label2.Text = altin.ToString();
                 pictureBox7.Enabled = false;
                 pictureBox7.BackColor = Color.Green;

@@ -184,6 +184,7 @@
             // 
             // pictureBox8
             // 
+            pictureBox8.Cursor = Cursors.Hand;
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
             pictureBox8.Location = new Point(12, 12);
             pictureBox8.Name = "pictureBox8";
@@ -195,6 +196,8 @@
             // 
             // progressBar1
             // 
+            progressBar1.BackColor = Color.Red;
+            progressBar1.ForeColor = Color.Blue;
             progressBar1.Location = new Point(118, 131);
             progressBar1.Maximum = 30000;
             progressBar1.Name = "progressBar1";
