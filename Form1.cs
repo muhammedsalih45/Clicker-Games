@@ -10,7 +10,7 @@ namespace Clicker_Games
         int altin = 0;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            altin += 20;
+            altin += hit;
             label2.Text = altin.ToString();
 
             if (progressBar1.Value <= hit)

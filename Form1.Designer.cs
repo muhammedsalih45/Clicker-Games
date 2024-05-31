@@ -196,11 +196,11 @@
             // progressBar1
             // 
             progressBar1.Location = new Point(118, 131);
-            progressBar1.Maximum = 50000;
+            progressBar1.Maximum = 30000;
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(503, 29);
             progressBar1.TabIndex = 6;
-            progressBar1.Value = 50000;
+            progressBar1.Value = 30000;
             // 
             // timer1
             // 
